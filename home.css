@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+}
+
+/* navbar */
+.navbar-brand {
+    margin-right:40%;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.tombol {
+    padding: 3px 22px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background: url("img/logo2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 220px;
+}
+
+/* small devices */
+@media (min-width: 576px) { 
+    .jumbotron{
+        width: 100%;
+        height: 400px;
+    }
+
+    .navbar-brand {
+        margin-right: 45%;
+    }
+ }
+#sbt1 {
+	
+}
+
+
+
+
+/* Tablet Version */
+@media (min-width: 768px) { 
+    .jumbotron {
+        width: 100%;
+        height: 500px;
+    }
+
+    .navbar-brand {
+        margin-right: 45%;
+    }
+    
+ }
+
+
+
+
+/* DESKTOP Version */
+@media (min-width: 992px) {
+    
+    /* navbar */
+    .navbar-brand {
+        margin-right: 25%;
+        margin-left: 20px;
+    }
+
+    .nav-link {
+        margin: 0 20%;
+    }
+
+    .navbar-brand, .nav-link {
+        text-transform: uppercase;
+        color: white !important;
+    }
+
+    .tombol {
+        text-transform: uppercase;
+        margin-top: 4px;
+        margin-left: -25px;
+        margin-right: 10px;
+    }
+
+    .cari {
+        margin-left: 130px;
+    }
+
+    /* jumbotron */
+        .jumbotron {
+            margin-top: -10%;
+            width: 100%;
+            height: 700px;
+        }
+    
+    
+
+ }

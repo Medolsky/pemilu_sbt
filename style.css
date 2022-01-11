@@ -1,0 +1,68 @@
+/* navbar */
+.navbar-brand {
+    margin-right: 45%;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.tombol {
+    padding: 3px 22px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background: url(img/logo.jpg) no-repeat;
+    background-size: cover;
+    margin-left: -30px;
+    height: 300px;
+}
+
+
+/* DESKTOP Version */
+@media (min-width: 992px) {
+    
+    /* navbar */
+    .navbar-brand {
+        margin-right: 32%;
+        margin-left: 20px;
+    }
+
+    .nav-link {
+        margin: 0 10px;
+    }
+
+    .navbar-brand, .nav-link {
+        text-transform: uppercase;
+        color: white !important;
+    }
+
+    .tombol {
+        text-transform: uppercase;
+        margin-top: 4px;
+        margin-left: -25px;
+        margin-right: 10px;
+    }
+
+    .cari {
+        margin-left: 130px;
+    }
+
+    /* jumbotron */
+        .jumbotron {
+            margin-top: -72px;
+            height: 1000px;
+            margin-left: 0px;
+        }
+
+
+    /* join */
+    
+    
+ }
+ 
+ 
+

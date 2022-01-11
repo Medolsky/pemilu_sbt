@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+
+.download {
+    color: azure;
+}
+
+.thead-dark {
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+}
+
+.form-inline{
+    margin-left: 60%;
+}
+
+.kembali {
+    color: white;
+}
+.btn {
+    margin-right: 5px;
+    margin-left: 5px;
+}

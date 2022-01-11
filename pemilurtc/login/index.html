@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pemilihan Ketua RTC 2020 - 2021 | Area</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<!-- Mixins-->
+<!-- Pen Title-->
+<div class="pen-title">
+  <h1>Silahkan isi data dengan benar</h1>
+</div>
+<div class="container">
+  <div class="card"></div>
+  <div class="card">
+    <h1 class="title">Masuk</h1>
+    <form method="post" action="ceklogin.php">
+      <div class="input-container">
+        <input type="#{type}" id="#{label}" name="username" required="required" autocomplete="off"/>
+        <label for="#{label}">Username</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" id="pass" name="password" required="required"/>
+        <label for="#{label}">Kata Sandi</label>
+        <div class="bar"></div>
+        <span id="mybutton" onclick="change()"><i class="glyphicon glyphicon-eye-open"></i></span>
+      </div>
+      <div class="button-container">
+        <button><span>Masuk</span></button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Portfolio--><a id="portfolio" href="../" title="Kembali ke beranda"><i class="fa fa-home"></i></a>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+    <script>
+      function change()
+         {
+            var x = document.getElementById('pass').type;
+
+            if (x == 'password')
+            {
+               document.getElementById('pass').type = 'text';
+               document.getElementById('mybutton').innerHTML = '<i class="glyphicon glyphicon-eye-close"></i>';
+            }
+            else
+            {
+               document.getElementById('pass').type = 'password';
+               document.getElementById('mybutton').innerHTML = '<i class="glyphicon glyphicon-eye-open"></i>';
+            }
+         }
+    </script>
+
+</body>
+</html>
